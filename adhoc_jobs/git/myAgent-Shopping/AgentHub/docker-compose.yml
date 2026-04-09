@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  hub:
+    build:
+      context: .
+      dockerfile: hub/Dockerfile
+    ports:
+      - "1883:1883"
+      - "8083:8083"
+    volumes:
+      - ./hub/config.yaml:/app/hub/config.yaml
+      - ./tokens.json:/app/tokens.json
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - agora-network
+
+networks:
+  agora-network:
+    driver: bridge

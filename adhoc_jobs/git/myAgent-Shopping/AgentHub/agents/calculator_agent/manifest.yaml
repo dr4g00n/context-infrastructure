@@ -1,0 +1,46 @@
+agent:
+  id: calculator_agent
+  version: "1.0.0"
+  description: "Math calculator agent"
+  api_key: ${CALC_AGENT_API_KEY:-calc_key_123}
+
+capabilities:
+  - name: math.add
+    description: "Add two numbers"
+    input_schema:
+      type: object
+      required: ["a", "b"]
+      properties:
+        a: { type: number }
+        b: { type: number }
+    output_schema:
+      type: object
+      properties:
+        result: { type: number }
+
+  - name: math.subtract
+    description: "Subtract two numbers"
+    input_schema:
+      type: object
+      required: ["a", "b"]
+      properties:
+        a: { type: number }
+        b: { type: number }
+
+  - name: math.multiply
+    description: "Multiply two numbers"
+    input_schema:
+      type: object
+      required: ["a", "b"]
+      properties:
+        a: { type: number }
+        b: { type: number }
+
+  - name: math.divide
+    description: "Divide two numbers"
+    input_schema:
+      type: object
+      required: ["a", "b"]
+      properties:
+        a: { type: number }
+        b: { type: number }
