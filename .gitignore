@@ -1,1 +1,5 @@
 .worktrees/
+adhoc_jobs/git/*/*/.git
+adhoc_jobs/git/*/.git
+adhoc_jobs/git/*/*/.git
+adhoc_jobs/git/
