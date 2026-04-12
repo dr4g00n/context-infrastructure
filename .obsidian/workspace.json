@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "e652f5cfe9572541",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ff7e3366a608b92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bae18f38165f4f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rules/SOUL.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SOUL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b3cc56525556fc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b463d84aa808a3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91038f86c720347b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b7fdd24fa82dd80f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "027c1d51c3aa5d1d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "03e2c52fd90ca5d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c83b49d3dd08b36f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a353655e0d5d92b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "rules/SOUL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "SOUL 的反向链接列表"
+            }
+          },
+          {
+            "id": "afe7e712ae0b8f0c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "rules/SOUL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "SOUL 的出链列表"
+            }
+          },
+          {
+            "id": "fde34a0d7b66beeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b26e9a99a2473fc2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7eda8b57f1d39509",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "rules/SOUL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "SOUL 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "9bae18f38165f4f2",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "AGENTS.md",
+    "rules/COMMUNICATION.md",
+    "rules/SOUL.md",
+    "rules/WORKSPACE.md",
+    "rules/USER.md",
+    "rules/skills/semantic_search.md",
+    "rules/skills/share_report.md",
+    "rules/skills/send_email.md",
+    "rules/skills/INDEX.md",
+    "rules/skills/bestpractice_staged_approach.md",
+    "rules/skills/bestpractice_ai_debugging_diagnosis.md",
+    "contexts/daily_records/INDEX.md",
+    "contexts/daily_records/CLAUDE.md.md",
+    "contexts/daily_records/Share Your Projects 2.md",
+    "contexts/daily_records/obsidian web clipper - Google 搜索.md",
+    "contexts/daily_records/Build software better, together.md",
+    "contexts/daily_records/Share Your Projects.md",
+    "contexts/daily_records/Share Your Projects 1.md",
+    "rules/skills/ai_agent_cli_guide.md",
+    "rules/skills/bestpractice_temporal_info_verification.md",
+    "rules/skills/workflow_bilibili_whisper_transcription.md",
+    "rules/skills/workflow_deep_research_survey.md",
+    "contexts/thought_review/超级有机体与全球神经网络.md",
+    "contexts/thought_review/ai_reasoning_bias_20250411.md",
+    "contexts/thought_review/AI监控AI即主体博弈.md",
+    "periodic_jobs/ai_heartbeat/src/v0/EOF",
+    "contexts/survey_sessions/mempalace.yaml",
+    "contexts/survey_sessions/entities.json",
+    "rules/mempalace.yaml",
+    "rules/chroma.sqlite3-journal",
+    "rules/728322ff-1e8b-43ed-9b3c-313a0006b93d/link_lists.bin",
+    "rules/728322ff-1e8b-43ed-9b3c-313a0006b93d/length.bin",
+    "rules/728322ff-1e8b-43ed-9b3c-313a0006b93d/header.bin",
+    "rules/728322ff-1e8b-43ed-9b3c-313a0006b93d/data_level0.bin",
+    "rules/728322ff-1e8b-43ed-9b3c-313a0006b93d"
+  ]
+}

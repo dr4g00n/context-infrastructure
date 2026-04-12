@@ -65,3 +65,13 @@ Date: 2026-03-23 (thought_review)
 🟡 Medium: [元认知-思维模式] 识别到跨文档反复出现的三种思维框架：(1)本质化降维——把复杂系统化简为一个等式再统一解释所有现象；(2)跨域深层同构——不满足于表面类比，追究两个域之间的结构同构并从中提取设计原则；(3)不对称性分析——在博弈双方之间建立不对称矩阵，把不对称性本身视为杠杆点。这些是稳定的认知风格，可作为未来提炼 axiom 的元判断标准。来源：contexts/thought_review/ 全量扫描。
 
 🟡 Medium: [前沿盲区] 认知过饱和攻击——AI使信息生成速度远超人类处理速度，可以像DDoS服务器一样DDoS人的认知，造成决策瘫痪或注意力耗竭。传统安全完全忽视认知边界，而AI使攻击边际成本趋近于零。目前安全领域几乎无系统性防御框架，是真实的结构性盲区，值得单独深挖。来源：contexts/thought_review/认知过饱和攻击.md。→ 已深化为 developing 状态 (2026-03-23)，待量化模型、组织级防御框架、红队演练方案完善后晋升。
+
+Date: 2026-04-11
+
+🔴 High: [方法论-调试反思] 框架惯性陷阱——被既有工程结构"带偏"是调试中的隐形风险。当修复复杂bug时，停下来问自己"这个问题本身是不是不应该存在？有没有更直接的解决路径？"。tintin项目中，花大力气修复 iconv+sed 编码链条，却忽略了 tt++ 内置的 `#config charset GBK1TOUTF8` 才是正解。教训：看到"被注释的配置"要好奇"为什么被注释"，看到"存在的解决方案"不等于"正确的解决方案"。
+
+🟡 Medium: [项目状态] myAgent-Shopping 三组件状态确认——AgentHub（Agora）核心功能已完成，集成测试待完善；AgentCard 前端框架就绪待开发；AgentDebug 初期搭建中。下一步：启动 Hub+MQTT 完成集成测试，开发 AgentCard REST API。
+
+🟡 Medium: [工具状态] OpenCode Server 间歇性 503 错误——observer.py 依赖的 opencode serve 返回 503 Service Unavailable，可能需要检查服务状态或考虑备用观测方案。
+
+🟢 Low: [日常任务] 完成 tintin 项目编码问题反思报告，归档至 contexts/thought_review/tintin_encoding_reflection_20250411.md。
