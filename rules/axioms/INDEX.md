@@ -39,6 +39,8 @@
 - 「验证」「信任」「可靠性」→ V 系列, A04
 - 「优先级」「效率」「瓶颈」→ M03, X03
 - 「上下文」「记忆」「文档」→ A05, T03
+- 「长上下文」「推理退化」「模型偷懒」→ A14
+- 「Agent 可靠性」「Harness」→ A04, A14
 
 ---
 
@@ -59,6 +61,7 @@
 | A11 | [工具组合即能力扩展](a11_tool_composition_as_capability_expansion.md) | 工具被组合时能力非线性扩展 |
 | A12 | [AI 原生开发范式](a12_ai_native_development_paradigm.md) | 软件应优先提供 AI 可消费的接口 |
 | A13 | [技术采用三阶段](a13_tech_adoption_stages.md) | 电动机平行：Driver→Co-pilot→Architect |
+| A14 | [认知节省机制：长上下文中的推理偏移](a14_reasoning_shift_cognitive_economy.md) | 模型在长上下文中的退化是主动经济决策，而非能力不足 |
 
 ---
 
@@ -134,10 +137,10 @@
 
 | 领域 | 数量 |
 |------|------|
-| AI/Agentic | 13 |
+| AI/Agentic | 14 |
 | 技术决策 | 9 |
 | 管理/工作哲学 | 10 |
 | 信任与验证 | 5 |
 | 跨域隐喻 | 6 |
 | 安全 | 3 |
-| **总计** | **46** |
+| **总计** | **47** |
