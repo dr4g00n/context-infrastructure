@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0ff7e3366a608b92",
+        "id": "1bd873e7d382e5b8",
         "type": "tabs",
         "children": [
           {
-            "id": "9bae18f38165f4f2",
+            "id": "005f359a533c50c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "rules/SOUL.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -183,18 +183,26 @@
       "bases:新建数据库": false
     }
   },
-  "active": "9bae18f38165f4f2",
+  "active": "005f359a533c50c3",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "AGENTS.md",
     "rules/COMMUNICATION.md",
     "rules/SOUL.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "adhoc_jobs/git/OpenFindBearings.Web/node_modules/vite/LICENSE.md",
+    "rules/skills/INDEX.md",
+    "rules/skills/workflow_functional_emotion_detection.md",
+    "rules/skills/workflow_knowledge_flywheel.md",
+    "rules/skills/workflow_presentation_slides.md",
+    "contexts/memory/OBSERVATIONS.md",
+    "contexts/daily_records/Harness 刚火，可能就要成为过去时了｜Hao好聊论文.md",
+    "rules/axioms/a15_functional_truth.md",
+    "rules/axioms/a14_reasoning_shift_cognitive_economy.md",
     "rules/WORKSPACE.md",
     "rules/USER.md",
     "rules/skills/semantic_search.md",
     "rules/skills/share_report.md",
     "rules/skills/send_email.md",
-    "rules/skills/INDEX.md",
     "rules/skills/bestpractice_staged_approach.md",
     "rules/skills/bestpractice_ai_debugging_diagnosis.md",
     "contexts/daily_records/INDEX.md",
@@ -203,14 +211,6 @@
     "contexts/daily_records/obsidian web clipper - Google 搜索.md",
     "contexts/daily_records/Build software better, together.md",
     "contexts/daily_records/Share Your Projects.md",
-    "contexts/daily_records/Share Your Projects 1.md",
-    "rules/skills/ai_agent_cli_guide.md",
-    "rules/skills/bestpractice_temporal_info_verification.md",
-    "rules/skills/workflow_bilibili_whisper_transcription.md",
-    "rules/skills/workflow_deep_research_survey.md",
-    "contexts/thought_review/超级有机体与全球神经网络.md",
-    "contexts/thought_review/ai_reasoning_bias_20250411.md",
-    "contexts/thought_review/AI监控AI即主体博弈.md",
     "periodic_jobs/ai_heartbeat/src/v0/EOF",
     "contexts/survey_sessions/mempalace.yaml",
     "contexts/survey_sessions/entities.json",
