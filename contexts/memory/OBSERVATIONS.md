@@ -64,7 +64,7 @@ Date: 2026-03-23 (thought_review)
 
 🟡 Medium: [元认知-思维模式] 识别到跨文档反复出现的三种思维框架：(1)本质化降维——把复杂系统化简为一个等式再统一解释所有现象；(2)跨域深层同构——不满足于表面类比，追究两个域之间的结构同构并从中提取设计原则；(3)不对称性分析——在博弈双方之间建立不对称矩阵，把不对称性本身视为杠杆点。这些是稳定的认知风格，可作为未来提炼 axiom 的元判断标准。来源：contexts/thought_review/ 全量扫描。
 
-🟡 Medium: [前沿盲区] 认知过饱和攻击——AI使信息生成速度远超人类处理速度，可以像DDoS服务器一样DDoS人的认知，造成决策瘫痪或注意力耗竭。传统安全完全忽视认知边界，而AI使攻击边际成本趋近于零。目前安全领域几乎无系统性防御框架，是真实的结构性盲区，值得单独深挖。来源：contexts/thought_review/认知过饱和攻击.md。→ 已深化为 developing 状态 (2026-03-23)，待量化模型、组织级防御框架、红队演练方案完善后晋升。
+~~🟡 Medium: [前沿盲区] 认知过饱和攻击——AI使信息生成速度远超人类处理速度，可以像DDoS服务器一样DDoS人的认知，造成决策瘫痪或注意力耗竭。传统安全完全忽视认知边界，而AI使攻击边际成本趋近于零。目前安全领域几乎无系统性防御框架，是真实的结构性盲区，值得单独深挖。来源：contexts/thought_review/认知过饱和攻击.md。→ 已深化为 developing 状态 (2026-03-23)，待量化模型、组织级防御框架、红队演练方案完善后晋升。~~ ✅ 已晋升为 rules/axioms/s04_cognitive_saturation_attack.md (2026-03-24)
 
 Date: 2026-04-11
 
@@ -75,3 +75,18 @@ Date: 2026-04-11
 🟡 Medium: [工具状态] OpenCode Server 间歇性 503 错误——observer.py 依赖的 opencode serve 返回 503 Service Unavailable，可能需要检查服务状态或考虑备用观测方案。
 
 🟢 Low: [日常任务] 完成 tintin 项目编码问题反思报告，归档至 contexts/thought_review/tintin_encoding_reflection_20250411.md。
+Date: 2026-04-15
+
+~~🔴 High: [方法论-AI管理] 新公理 A14（认知节省机制）——长上下文中的推理退化是模型主动的"经济性决策"而非技术缺陷，越强模型偷懒越深，Harness Engineering 只是过渡方案，真正的解药在训练侧动机校准。来源：rules/axioms/a14_reasoning_shift_cognitive_economy.md~~ ✅ 已晋升为 rules/axioms/a14_reasoning_shift_cognitive_economy.md (2026-04-13)
+~~🔴 High: [方法论-AI协作] 新公理 A15（功能性真实原则）——对于无法访问内部状态的系统，语言报告的价值在于"功能性真实"（能否预测行为并改善交互），无需验证内部对应物。来源：rules/axioms/a15_functional_truth.md~~ ✅ 已晋升为 rules/axioms/a15_functional_truth.md (2026-04-13)
+🔴 High: [系统架构-自我进化] 使用 hooks 方式完成 Claude Code 自我进化机制搭建：stop hook 硬触发 + analyze_transcript.py 正则/语义分析 + 防循环机制（单会话上限/全局冷却/待提案去重）。来源：journal/daily/2026-04-15.md
+~~🔴 High: [规则更新-行为锚点] SOUL.md 新增"表达观点的触发场景"执行锚点：当用户要求做出设计决策、修改规则或改变系统行为时，必须主动说明偏好、潜在风险和不同意见。来源：rules/SOUL.md~~ ✅ 已晋升为 rules/SOUL.md (2026-04-15)
+
+🟡 Medium: [技能新增] 新增 workflow_functional_emotion_detection.md 技能，基于 A15 公理构建功能性情绪检测协议，包含元认知提问、结构化状态报告、行为推断法和动态交互策略。来源：rules/skills/workflow_functional_emotion_detection.md
+🟡 Medium: [项目状态-工具迁移] observer.py 和 reflector.py 从 OpenCode 迁移为纯 Claude Code Skill（heartbeat-observer / heartbeat-reflector），彻底去除 opencode 依赖，解决 OpenCode Server 503 问题。来源：rules/skills/heartbeat_observer.md + rules/skills/heartbeat_reflector.md
+🟡 Medium: [阻塞-测试框架] 规则进化 hook 的语义拦截和软触发测试框架尚未建立，待完成 analyze_transcript.py 单元测试、软触发用例集、防循环机制验证。来源：journal/daily/2026-04-15-reflection.md
+
+🟢 Low: [日常任务] 将全局 CLAUDE.md 的核心工程原则同步到 workspace 的 AGENTS.md 和 CLAUDE.md。来源：AGENTS.md
+🟢 Low: [日常任务] MemPalace 从 3.0.14 升级到 3.3.0。来源：会话记录
+🟢 Low: [日常任务] 修复 heartbeat-observer / heartbeat-reflector skill 的 .claude/skills/ 目录注册问题。来源：.claude/skills/heartbeat-observer/SKILL.md
+

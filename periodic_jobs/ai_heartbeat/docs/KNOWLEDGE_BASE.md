@@ -58,9 +58,10 @@
 ### 4.2 反思与晋升 (L2 Reflector)
 - **核心目标**: 实现从“短期观测”到“长期规则”的进化。
 - **操作文件**:
-  1. **规则层 (L3)**: 直接根据最新观测到的有效规律、语言风格变化、以及长效约束，修改或更新 `rules/` 下的核心规则文件 (`SOUL.md`, `USER.md`, `COMMUNICATION.md`, `WORKSPACE.md`)。
-  2. **记忆层 (L1/L2)**: 重写 `contexts/memory/OBSERVATIONS.md`。执行垃圾回收，删除已被固化进 rules 的内容以及过期的 🟢 记录。
-- **职责**: 确保 `rules/` 始终代表系统的最新“进化状态”。
+  1. **提案层**: 分析 `contexts/memory/OBSERVATIONS.md` 中的 🔴 和高优 🟡 条目，生成结构化晋升提案并追加到 `contexts/memory/PENDING_RULES_PROPOSALS.md`。
+  2. **规则层 (L3)**: **经用户确认后**，根据提案修改或更新 `rules/` 下的核心规则文件 (`SOUL.md`, `USER.md`, `COMMUNICATION.md`, `WORKSPACE.md` 等)。
+  3. **记忆层 (L1/L2)**: 在用户确认后，重写 `contexts/memory/OBSERVATIONS.md`。执行垃圾回收，删除已被固化进 rules 的内容以及过期的 🟢 记录。
+- **职责**: 确保 `rules/` 始终代表系统的最新“进化状态”，同时遵守 `CLAUDE.md` 中“用户确认后执行”的硬性约束。
 
 ## 5. 执行角色隔离 (Role Isolation)
 - **Observer (L1)** 和 **Reflector (L2)** 是独立的任务阶段。

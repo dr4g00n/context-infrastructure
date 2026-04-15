@@ -208,3 +208,9 @@ GB18030 "书剑" = CA E9 BD A3 (4字节)
 ## 8. 标签
 
 - `#编码` `#tt++` `#书剑MUD` `#反思` `#过度工程` `#框架惯性`
+
+---
+
+## 相关索引
+
+- [[contexts/thought_review/INDEX|thought_review 核心观点蒸馏]]

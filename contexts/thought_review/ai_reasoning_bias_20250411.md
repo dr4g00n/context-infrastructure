@@ -211,3 +211,9 @@
 ## 8. 标签
 
 - `#认知偏差` `#过度自信` `#确认偏误` `#调试方法论` `#ai-reflection`
+
+---
+
+## 相关索引
+
+- [[contexts/thought_review/INDEX|thought_review 核心观点蒸馏]]

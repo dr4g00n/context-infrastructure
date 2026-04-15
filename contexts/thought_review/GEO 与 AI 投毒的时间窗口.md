@@ -254,3 +254,9 @@ AI 投毒可以视为**间接认知攻击**：
 | 2026-03-09 | 灵感诞生：识别 AI 搜索的 GEO 投毒时间窗口 |
 | | |
 | | |
+
+---
+
+## 相关索引
+
+- [[contexts/thought_review/INDEX|thought_review 核心观点蒸馏]]

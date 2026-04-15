@@ -64,6 +64,8 @@
 - [知识飞轮设计模式](./workflow_knowledge_flywheel.md) — 笨数据+笨方法+笨模型=精知识
 - [视频下载与语音识别工作流](./workflow_bilibili_whisper_transcription.md) — Bilibili/YouTube 视频处理
 - [延时执行技能](./delayed_execution.md) ⚙️ — 定时任务：sleep + 后台执行，或 OpenCode API 智能任务
+- [AI Heartbeat L1 Observer](./heartbeat_observer.md) ✅ — 在 Claude Code 会话中直接执行每日观测扫描，写入三层记忆系统的 L1 层
+- [AI Heartbeat L2 Reflector](./heartbeat_reflector.md) ✅ — 在 Claude Code 会话中分析 L1 观测、生成规则晋升提案，经确认后执行 rules/ 修改和 GC
 
 ### BestPractice（最佳实践）
 

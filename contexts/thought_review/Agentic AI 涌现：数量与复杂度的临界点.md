@@ -314,3 +314,9 @@ Agentic AI 已经满足涌现的"规模门槛"和"连接密度"，
 ---
 
 **最后更新**: 2026-03-24 | **下次回顾**: 当观察到 L3 行为涌现信号时
+
+---
+
+## 相关索引
+
+- [[contexts/thought_review/INDEX|thought_review 核心观点蒸馏]]
